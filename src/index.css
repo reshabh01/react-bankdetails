@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+  /* background-color: #89B9AD; */
+  background-color: #04364A;
+}
+#heading {
+  margin-top: 5%;
+  text-align: center;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#inputBoxes{
+  text-align: center;
+}
+
+input {
+  width : 100px;
+}
+
+.clearBtn{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #c064ba;
+  color: white;
+}
+
+#findBtn{
+  padding: 10px;
+  background-color: #4155f0;
+  color: aliceblue;
+}
+
+#ifsc{
+  padding: 10px;
+  background-color: #faebdd;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #020202;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr td:nth-child(1) {
+  /* background: #FFC5C5; */
+  background-color: #64CCC5;
+   font-weight: bold;
+}
+
+tr td:nth-child(2)
+{
+  /* background: #FFEBD8; */
+  background-color: #DAFFFB;
+}
+
+
+.sizeAlter{
+  text-align: center;
+  padding: 10px;
 }

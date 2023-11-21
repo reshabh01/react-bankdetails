@@ -1,38 +1,77 @@
-.App {
+
+body{
+  /* background-color: #89B9AD; */
+  background-color: #04364A;
+}
+#heading {
+  margin-top: 5%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inputBoxes{
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width : 100px;
+}
+
+.clearBtn{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #c064ba;
+  color: white;
+}
+
+#findBtn{
+  padding: 10px;
+  background-color: #4155f0;
+  color: aliceblue;
+}
+
+#ifsc{
+  padding: 10px;
+  background-color: #faebdd;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #020202;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr td:nth-child(1) {
+  /* background: #FFC5C5; */
+  background-color: #64CCC5;
+   font-weight: bold;
+}
+
+tr td:nth-child(2)
+{
+  /* background: #FFEBD8; */
+  background-color: #DAFFFB;
+}
+
+
+.sizeAlter{
+  text-align: center;
+  padding: 10px;
 }
