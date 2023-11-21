@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-bankdetails/static/css/main.0ddb0cab.css",
+    "main.js": "/react-bankdetails/static/js/main.b5ecbe3c.js",
+    "index.html": "/react-bankdetails/index.html",
+    "main.0ddb0cab.css.map": "/react-bankdetails/static/css/main.0ddb0cab.css.map",
+    "main.b5ecbe3c.js.map": "/react-bankdetails/static/js/main.b5ecbe3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ddb0cab.css",
+    "static/js/main.b5ecbe3c.js"
+  ]
+}
